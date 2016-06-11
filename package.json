@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "lint": "tslint index.d.ts",
+    "bundle": "typings bundle . -o bundle.d.ts",
+    "test-spec": "ts-node test.ts",
+    "test": "npm run lint && npm run bundle && npm run test-spec"
+  },
+  "devDependencies": {
+    "subarg": "^1.0.0",
+    "ts-node": "^0.8.0",
+    "tslint": "^3.10.2",
+    "tslint-config-typings": "^0.2.3",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  }
+}

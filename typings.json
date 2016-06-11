@@ -1,0 +1,12 @@
+{
+  "name": "subarg",
+  "homepage": "https://github.com/substack/subarg",
+  "main": "index.d.ts",
+  "version": "^1.0.0",
+  "dependencies": {
+    "minimist": "registry:npm/minimist#1.0.0+20160229232932"
+  },
+  "globalDevDependencies": {
+    "node": "registry:env/node#6.0.0+20160610031852"
+  }
+}
